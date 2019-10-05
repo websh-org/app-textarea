@@ -21,7 +21,7 @@ announce "Preparing the build directory in $BUILD"
 } && ok || abort;
 
 announce "Copy build.package.json to build/package.json"
-cp $PACKAGE_JSON $BUILD/package.json && ok || abort
+cp $PACKAGE_JSON $BUILD/package.json && ok || warning "no package.json"
 
 announce "Copy README.md"
 cp $ROOT/README.md $BUILD && ok || abort
