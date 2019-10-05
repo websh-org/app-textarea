@@ -1,0 +1,23 @@
+{
+  "description": "Textarea app for WebShell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/app-textarea.git"
+  },
+  "keywords": [
+    "websh",
+    "webshell",
+    "app-textarea"
+  ],
+  "scripts": {
+    "test": "(cd tests; parcel index.html --open)",
+    "build": "bash scripts/build || true"
+  },
+  "author": "Zoran Obradović, Ljudmila.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/app-textarea/issues"
+  },
+  "homepage": "https://websh.org/packages/app-textarea/",
+  "private": true
+}
