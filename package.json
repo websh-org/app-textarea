@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "(cd tests; parcel index.html --open)",
-    "build": "bash scripts/build || true"
+    "build": "(cd src; parcel index.html --public-url=/docs --out-dir=../docs)"
   },
   "author": "Zoran Obradović, Ljudmila.org",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "url": "https://github.com/websh-org/app-textarea/issues"
   },
   "homepage": "https://websh.org/packages/app-textarea/",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@websh/web-shell-app": "^0.1.1"
+  }
 }
