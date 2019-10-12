@@ -4,6 +4,7 @@ const textarea = document.getElementById('textarea');
 
 WebShellApp.manifest({
   name:"Text Area",
+  icon:"https://upload.wikimedia.org/wikipedia/commons/a/ae/Icon-txt.svg",
   api: {
     test:{},
     file: {
