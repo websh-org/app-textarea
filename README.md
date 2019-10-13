@@ -1,5 +1,5 @@
-# WebShell Factory
+# Text Area WebShell app
 
-The component factory for WebShell, featuring multiple inheritance and and extendable building system.
+This is the example app for WebShell. 
 
-Read the docs [here](https://websh.org/packages/factory/).
+Live at [the WebShell app sandbox](https://websh.org/app-sandbox).

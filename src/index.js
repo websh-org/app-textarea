@@ -6,6 +6,10 @@ WebShellApp.manifest({
   name:"Text Area",
   icon:"https://upload.wikimedia.org/wikipedia/commons/a/ae/Icon-txt.svg",
   description: "This is the example app for WebShell.",
+  version:"0.2.0",
+  homepage:"https://github.com/websh-org/app-textarea#readme",
+  repository:"https://github.com/websh-org/app-textarea.git",
+  license:"ISC",
   api: {
     test:{},
     file: {
